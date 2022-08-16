@@ -1,0 +1,7 @@
+CREATE DATABASE api;
+
+CREATE TABLE users(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    address VARCHAR(100)
+);
